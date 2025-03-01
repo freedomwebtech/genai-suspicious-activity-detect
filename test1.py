@@ -8,7 +8,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set up Gemini AI
-GOOGLE_API_KEY = "AIzaSyCxWDd-Sjw8IusxfbIzdOFREGzHPmCu9WM"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 gemini_model = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
